@@ -1,0 +1,8 @@
+Processing Time:
+3,4,2,3
+
+Number of Clocks:
+100
+
+Frequency of Clock:
+2
