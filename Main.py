@@ -139,5 +139,5 @@ for i in range(0, len(Times)):
     print("Token number "+str(i+1)+" came out in Clock number "+str(Times[i])+" and after "+str(Times[i]/FrequencyOfClock)+" seconds based on the frequency you entered.")
 print("Latency : "+str(Times[0]))
 end = len(Times)-1
-print("Throughput : "+str(Times[end] - Times[end-1]))
+print("Throughput : 1/"+str(Times[end] - Times[end-1]))
 # Print
