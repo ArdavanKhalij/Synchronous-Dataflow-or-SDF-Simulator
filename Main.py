@@ -1,7 +1,7 @@
 # Libraries
 from copy import deepcopy
 # Libraries
-# Read from file
+# Read from files
 with open('Input_Matrix.txt', 'r') as f:
     Inputs = [[int(num) for num in line.split(',')] for line in f]
 f.close()
@@ -24,7 +24,7 @@ with open('input.txt', 'r') as f:
     f.readline()
     f.readline()
     FrequencyOfClock = int(f.readline())
-# Read from file
+# Read from files
 # Class of actor
 class Actor:
     def __init__(self, ID, ProcessingTime, Input, Output):
@@ -62,38 +62,29 @@ for o in Outputs:
 AC = Actor(len(Edges), 100, [[o[0],0,1]], [[1, len(Edges)+1]])
 Actors.append(AC)
 # Making a list of Actors
-# Main loop
-ContinueOrNot = 0
+# Get from inputs
 num = 0
+def getInput(Actors, z):
+    global num
+    ContinueOrNot = 0
+    for j in range(0, len(Actors[z].Input)):
+        if Actors[z].Input[j][1] >= Actors[z].Input[j][2]:
+            num = num + 1
+    if num == len(Actors[z].Input) and Actors[z].Busy == 0 and Actors[z].ID != len(Edges):
+        for c in Actors[z].Input:
+            c[1] = c[1] - c[2]
+        pt = Actors[z].ProcessingTime
+        Actors[z].Busy = pt
+        ContinueOrNot = 1
+    num = 0
+    return ContinueOrNot
+# Get from inputs
+# Main loop
 Times = []
 for i in range(0, NumberOfClocks):
-    print("----------------")
-    print("----------------")
-    print(i)
-    print("----------------")
-    print("----------------")
     for z in range(0, len(Actors)):
-        # Print
-        print("ID:")
-        print(Actors[z].ID)
-        print(Actors[z].Output)
-        print(Actors[z].Busy)
-        print(Actors[z].Input)
-        print("----------------")
-        # Print
         # Get from inputs
-        for j in range(0, len(Actors[z].Input)):
-            if Actors[z].Input[j][1] >= Actors[z].Input[j][2]:
-                num = num + 1
-        if num == len(Actors[z].Input) and Actors[z].Busy == 0 and Actors[z].ID != len(Edges):
-            for c in Actors[z].Input:
-                c[1] = c[1] - c[2]
-            pt = Actors[z].ProcessingTime
-            Actors[z].Busy = pt
-            ContinueOrNot = 1
-        num = 0
-        if ContinueOrNot == 1:
-            ContinueOrNot = 0
+        if getInput(Actors, z) == 1:
             continue
         # Get from inputs
         # Shoot the answers
@@ -114,18 +105,7 @@ for i in range(0, NumberOfClocks):
                         InputChangerIndex = ip
                 Actors[index].Input[InputChangerIndex][1] = Actors[index].Input[InputChangerIndex][1] + Actors[z].Output[j][0]
                 # Get from inputs
-                for j in range(0, len(Actors[z].Input)):
-                    if Actors[z].Input[j][1] >= Actors[z].Input[j][2]:
-                        num = num + 1
-                if num == len(Actors[z].Input) and Actors[z].Busy == 0 and Actors[z].ID != len(Edges):
-                    for c in Actors[z].Input:
-                        c[1] = c[1] - c[2]
-                    pt = Actors[z].ProcessingTime
-                    Actors[z].Busy = pt
-                    ContinueOrNot = 1
-                num = 0
-                if ContinueOrNot == 1:
-                    ContinueOrNot = 0
+                if getInput(Actors, z) == 1:
                     continue
                 # Get from inputs
         elif Actors[z].Busy == 0:
@@ -134,10 +114,16 @@ for i in range(0, NumberOfClocks):
             Actors[z].Busy = Actors[z].Busy - 1
         # Shoot the answers
 # Main loop
-# Print
+# Print the result
 for i in range(0, len(Times)):
     print("Token number "+str(i+1)+" came out in Clock number "+str(Times[i])+" and after "+str(Times[i]/FrequencyOfClock)+" seconds based on the frequency you entered.")
-print("Latency : "+str(Times[0]))
-end = len(Times)-1
-print("Throughput : 1/"+str(Times[end] - Times[end-1]))
-# Print
+if len(Times)>0:
+    print("Latency : "+str(Times[0]))
+    if len(Times)>1:
+        end = len(Times)-1
+        print("Throughput : 1/"+str(Times[end] - Times[end-1]))
+    else:
+        print("Throughput is not available for 1 token.")
+else:
+    print("Latency and Throughput are not available for 0 token.")
+# Print the result
