@@ -64,13 +64,15 @@ Actors.append(AC)
 # Making a list of Actors
 # Get from inputs
 num = 0
-def getInput(Actors, z):
+def getInput(Actors, z, i):
     global num
     ContinueOrNot = 0
     for j in range(0, len(Actors[z].Input)):
         if Actors[z].Input[j][1] >= Actors[z].Input[j][2]:
             num = num + 1
     if num == len(Actors[z].Input) and Actors[z].Busy == 0 and Actors[z].ID != len(Edges):
+        if(Actors[z].ID == 0):
+            StartTime.append(i)
         for c in Actors[z].Input:
             c[1] = c[1] - c[2]
         pt = Actors[z].ProcessingTime
@@ -80,17 +82,18 @@ def getInput(Actors, z):
     return ContinueOrNot
 # Get from inputs
 # Main loop
-Times = []
+EndTimes = []
+StartTime = []
 for i in range(0, NumberOfClocks):
     for z in range(0, len(Actors)):
         # Get from inputs
-        if getInput(Actors, z) == 1:
+        if getInput(Actors, z, i) == 1:
             continue
         # Get from inputs
         # Shoot the answers
         if z == len(Edges) and Actors[z].Input[0][1] == 1:  # and Actors[kk-1].Input[0][1] > 0:
             if i+4<NumberOfClocks:
-                Times.append(i)
+                EndTimes.append(i)
             Actors[z].Input[0][1] = 0
         if Actors[z].Busy == 1:
             Actors[z].Busy = 0
@@ -105,7 +108,7 @@ for i in range(0, NumberOfClocks):
                         InputChangerIndex = ip
                 Actors[index].Input[InputChangerIndex][1] = Actors[index].Input[InputChangerIndex][1] + Actors[z].Output[j][0]
                 # Get from inputs
-                if getInput(Actors, z) == 1:
+                if getInput(Actors, z, i) == 1:
                     continue
                 # Get from inputs
         elif Actors[z].Busy == 0:
@@ -114,14 +117,25 @@ for i in range(0, NumberOfClocks):
             Actors[z].Busy = Actors[z].Busy - 1
         # Shoot the answers
 # Main loop
+# Make Start times right
+if len(StartTime)<len(EndTimes):
+    while(len(StartTime)!=len(EndTimes)):
+        StartTime.insert(0, -1)
+# Make Start times right
 # Print the result
-for i in range(0, len(Times)):
-    print("Token number "+str(i+1)+" came out in Clock number "+str(Times[i])+" and after "+str(Times[i]/FrequencyOfClock)+" seconds based on the frequency you entered.")
-if len(Times)>0:
-    print("Latency : "+str(Times[0]))
-    if len(Times)>1:
-        end = len(Times)-1
-        print("Throughput : 1/"+str(Times[end] - Times[end-1]))
+end = len(EndTimes)-1
+for i in range(0, len(EndTimes)):
+    if(StartTime[i]==-1):
+        print("Token number " + str(i + 1) + " came out in Clock number " + str(EndTimes[i]) + " and after " + str(
+            EndTimes[i] / FrequencyOfClock) + " seconds based on the frequency you entered.")
+    else:
+        print("Token number " + str(i + 1) + " had got in, in clock number " + str(
+            StartTime[i]) + " and came out in Clock number " + str(EndTimes[i]) + " and after " + str(
+            EndTimes[i] / FrequencyOfClock) + " seconds based on the frequency you entered.")
+if len(EndTimes)>0 and PrimaryToken!=0:
+    print("Latency : "+str(EndTimes[end-1]-StartTime[end-1]))
+    if len(EndTimes)>1:
+        print("Throughput : 1/"+str(EndTimes[end] - EndTimes[end-1]))
     else:
         print("Throughput is not available for 1 token.")
 else:
