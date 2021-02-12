@@ -1,5 +1,9 @@
 # Libraries
 from copy import deepcopy
+import networkx as nx
+import matplotlib.pyplot as plt
+import plotly.express as px
+import pandas as pd
 # Libraries
 # Read from files
 with open('Input_Matrix.txt', 'r') as f:
@@ -62,6 +66,17 @@ for o in Outputs:
 AC = Actor(len(Edges), 100, [[o[0],0,1]], [[1, len(Edges)+1]])
 Actors.append(AC)
 # Making a list of Actors
+# Drawing SDF graph
+# SDF = nx.Graph()
+# for j in range(0, len(Actors)-1):
+#     SDF.add_node(str(Actors[j].ID))
+#     for i in Actors[j].Input:
+#         if(i[0]!=-1):
+#             SDF.add_edge(str(i[0]), str(Actors[j].ID))
+# nx.draw(SDF, node_size=600, with_labels=True)
+# plt.savefig("path_graph1.png")
+# plt.show()
+# Drawing SDF graph
 # Get from inputs
 num = 0
 def getInput(Actors, z, i):
@@ -118,9 +133,13 @@ for i in range(0, NumberOfClocks):
         # Shoot the answers
 # Main loop
 # Make Start times right
-if len(StartTime)<len(EndTimes):
-    while(len(StartTime)!=len(EndTimes)):
-        StartTime.insert(0, -1)
+num=0
+for i in PrimaryTokens:
+    for j in i:
+        if j>0:
+            num=num+j
+for i in range(0, num):
+    StartTime.insert(0, -1)
 # Make Start times right
 # Print the result
 end = len(EndTimes)-1
@@ -135,9 +154,29 @@ for i in range(0, len(EndTimes)):
 if len(EndTimes)>0 and PrimaryToken!=0:
     print("Latency : "+str(EndTimes[end-1]-StartTime[end-1]))
     if len(EndTimes)>1:
-        print("Throughput : 1/"+str(EndTimes[end] - EndTimes[end-1]))
+        # print("Throughput base on book : 1/"+str(EndTimes[end] - EndTimes[end-1]))
+        MaxDifTime = 0
+        for i in range(0, len(EndTimes)-1):
+            if(EndTimes[i+1]-EndTimes[i])>MaxDifTime:
+                MaxDifTime = EndTimes[i+1]-EndTimes[i]
+        print("Throughput : 1/" + str(MaxDifTime))
     else:
         print("Throughput is not available for 1 token.")
 else:
     print("Latency and Throughput are not available for 0 token.")
 # Print the result
+# Chart of process of each Token
+fig, gnt = plt.subplots()
+gnt.set_ylim(0, len(StartTime))
+gnt.set_xlim(0, NumberOfClocks-1)
+gnt.set_xlabel('Number of clocks')
+gnt.set_ylabel('Tokens')
+gnt.set_yticks(list(range(0, len(StartTime))))
+gnt.grid(True)
+for i in range(0, len(EndTimes)):
+    if(i % 2 == 0):
+        gnt.broken_barh([(StartTime[i], EndTimes[i]-StartTime[i])], (i, 0.9), facecolors=('tab:red'))
+    else:
+        gnt.broken_barh([(StartTime[i], EndTimes[i] - StartTime[i])], (i, 0.9))
+plt.show()
+# Chart of process of each Token
