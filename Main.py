@@ -2,8 +2,6 @@
 from copy import deepcopy
 import networkx as nx
 import matplotlib.pyplot as plt
-import plotly.express as px
-import pandas as pd
 # Libraries
 # Read from files
 with open('Input_Matrix.txt', 'r') as f:
@@ -67,15 +65,15 @@ AC = Actor(len(Edges), 100, [[o[0],0,1]], [[1, len(Edges)+1]])
 Actors.append(AC)
 # Making a list of Actors
 # Drawing SDF graph
-# SDF = nx.Graph()
-# for j in range(0, len(Actors)-1):
-#     SDF.add_node(str(Actors[j].ID))
-#     for i in Actors[j].Input:
-#         if(i[0]!=-1):
-#             SDF.add_edge(str(i[0]), str(Actors[j].ID))
-# nx.draw(SDF, node_size=600, with_labels=True)
-# plt.savefig("path_graph1.png")
-# plt.show()
+SDF = nx.DiGraph()
+for j in range(0, len(Actors)-1):
+    SDF.add_node(str(Actors[j].ID))
+    for i in Actors[j].Input:
+        if(i[0]!=-1):
+            SDF.add_edge(str(i[0]), str(Actors[j].ID))
+nx.draw(SDF, node_size=600, with_labels=True)
+plt.savefig("path_graph1.png")
+plt.show()
 # Drawing SDF graph
 # Get from inputs
 num = 0
