@@ -3,6 +3,9 @@ from copy import deepcopy
 import networkx as nx
 import matplotlib.pyplot as plt
 # Libraries
+# Output variable for file print
+MainOutput = []
+# Output variable for file print
 # Read from files
 with open('Input_Matrix.txt', 'r') as f:
     Inputs = [[int(num) for num in line.split(',')] for line in f]
@@ -91,6 +94,12 @@ def getInput(Actors, z, i):
         pt = Actors[z].ProcessingTime
         Actors[z].Busy = pt
         ContinueOrNot = 1
+        MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+" is ready to get the inputs so inputs get into the actor.")
+    else:
+        if num != len(Actors[z].Input):
+            MainOutput.append("Clock Number "+str(i)+" : "+"All the inputs are not ready to enter the actor number "+str(z)+".")
+        if Actors[z].Busy != 0:
+            MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+" is still busy.")
     num = 0
     return ContinueOrNot
 # Get from inputs
@@ -113,7 +122,8 @@ for i in range(0, NumberOfClocks):
             for j in range(0, len(Actors[z].Output)):
                 kk = len(Actors)
                 index = Actors[z].Output[j][1]
-                if index == 5:
+                if index == len(Actors):
+
                     continue
                 InputChangerIndex = 0
                 for ip in range(0, len(Actors[index].Input)):
@@ -124,19 +134,26 @@ for i in range(0, NumberOfClocks):
                 if getInput(Actors, z, i) == 1:
                     continue
                 # Get from inputs
+            MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+"shooted and now it is free.")
         elif Actors[z].Busy == 0:
             pass
+            MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+" is still free.")
         else:
             Actors[z].Busy = Actors[z].Busy - 1
+            MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+" is still busy and it can shoot in "+str(Actors[z].Busy)+" clocks later.")
         # Shoot the answers
 # Main loop
 # Make Start times right
 num=0
+print(len(StartTime))
+print(len(EndTimes))
 for i in PrimaryTokens:
     for j in i:
         if j>0:
             num=num+j
 for i in range(0, num):
+    StartTime.insert(0, -1)
+for i in range(0, len(EndTimes)-len(StartTime)):
     StartTime.insert(0, -1)
 # Make Start times right
 # Print the result
@@ -149,15 +166,15 @@ for i in range(0, len(EndTimes)):
         print("Token number " + str(i + 1) + " had got in, in clock number " + str(
             StartTime[i]) + " and came out in Clock number " + str(EndTimes[i]) + " and after " + str(
             EndTimes[i] / FrequencyOfClock) + " seconds based on the frequency you entered.")
-if len(EndTimes)>0 and PrimaryToken!=0:
-    print("Latency : "+str(EndTimes[end-1]-StartTime[end-1]))
-    if len(EndTimes)>1:
-        # print("Throughput base on book : 1/"+str(EndTimes[end] - EndTimes[end-1]))
-        MaxDifTime = 0
-        for i in range(0, len(EndTimes)-1):
-            if(EndTimes[i+1]-EndTimes[i])>MaxDifTime:
-                MaxDifTime = EndTimes[i+1]-EndTimes[i]
-        print("Throughput : 1/" + str(MaxDifTime))
+if len(EndTimes)>num and PrimaryToken!=0:
+    print("Latency : "+str(EndTimes[num]-StartTime[num]))
+    if len(EndTimes)>num+1:
+        print("Throughput : 1/"+str(EndTimes[end] - EndTimes[end-1]))
+        # MaxDifTime = 0
+        # for i in range(0, len(EndTimes)-1):
+        #     if(EndTimes[i+1]-EndTimes[i])>MaxDifTime:
+        #         MaxDifTime = EndTimes[i+1]-EndTimes[i]
+        # print("Throughput : 1/" + str(MaxDifTime))
     else:
         print("Throughput is not available for 1 token.")
 else:
@@ -169,7 +186,7 @@ gnt.set_ylim(0, len(StartTime))
 gnt.set_xlim(0, NumberOfClocks-1)
 gnt.set_xlabel('Number of clocks')
 gnt.set_ylabel('Tokens')
-gnt.set_yticks(list(range(0, len(StartTime))))
+# gnt.set_yticks(list(range(0, len(StartTime))))
 gnt.grid(True)
 for i in range(0, len(EndTimes)):
     if(i % 2 == 0):
@@ -178,3 +195,10 @@ for i in range(0, len(EndTimes)):
         gnt.broken_barh([(StartTime[i], EndTimes[i] - StartTime[i])], (i, 0.9))
 plt.show()
 # Chart of process of each Token
+# Write on file
+with open('Output.txt','w') as f:pass
+f.close()
+with open('Output.txt','a') as f:
+    for i in MainOutput:
+        f.write(i+"\n")
+# Write on file
