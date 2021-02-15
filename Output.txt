@@ -1,0 +1,572 @@
+Clock Number 0 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 0 : All the inputs are not ready to enter the actor number 1.
+Clock Number 0 : Actor number 1 is still free.
+Clock Number 0 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 0 : All the inputs are not ready to enter the actor number 3.
+Clock Number 0 : Actor number 3 is still free.
+Clock Number 0 : All the inputs are not ready to enter the actor number 4.
+Clock Number 0 : Actor number 4 is still free.
+Clock Number 1 : Actor number 0 is still busy.
+Clock Number 1 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 1 : All the inputs are not ready to enter the actor number 1.
+Clock Number 1 : Actor number 1 is still free.
+Clock Number 1 : All the inputs are not ready to enter the actor number 2.
+Clock Number 1 : Actor number 2 is still busy.
+Clock Number 1 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 1 : All the inputs are not ready to enter the actor number 3.
+Clock Number 1 : Actor number 3 is still free.
+Clock Number 1 : All the inputs are not ready to enter the actor number 4.
+Clock Number 1 : Actor number 4 is still free.
+Clock Number 2 : Actor number 0 is still busy.
+Clock Number 2 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 2 : All the inputs are not ready to enter the actor number 1.
+Clock Number 2 : Actor number 1 is still free.
+Clock Number 2 : All the inputs are not ready to enter the actor number 2.
+Clock Number 2 : Actor number 2 is still busy.
+Clock Number 2 : All the inputs are not ready to enter the actor number 2.
+Clock Number 2 : Actor number 2shooted and now it is free.
+Clock Number 2 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 2 : All the inputs are not ready to enter the actor number 4.
+Clock Number 2 : Actor number 4 is still free.
+Clock Number 3 : Actor number 0 is still busy.
+Clock Number 3 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 3 : Actor number 0shooted and now it is free.
+Clock Number 3 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 3 : All the inputs are not ready to enter the actor number 2.
+Clock Number 3 : Actor number 2 is still free.
+Clock Number 3 : All the inputs are not ready to enter the actor number 3.
+Clock Number 3 : Actor number 3 is still busy.
+Clock Number 3 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 3 : All the inputs are not ready to enter the actor number 4.
+Clock Number 3 : Actor number 4 is still free.
+Clock Number 4 : Actor number 0 is still busy.
+Clock Number 4 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 4 : All the inputs are not ready to enter the actor number 1.
+Clock Number 4 : Actor number 1 is still busy.
+Clock Number 4 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 4 : All the inputs are not ready to enter the actor number 2.
+Clock Number 4 : Actor number 2 is still free.
+Clock Number 4 : All the inputs are not ready to enter the actor number 3.
+Clock Number 4 : Actor number 3 is still busy.
+Clock Number 4 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 4 : All the inputs are not ready to enter the actor number 4.
+Clock Number 4 : Actor number 4 is still free.
+Clock Number 5 : Actor number 0 is still busy.
+Clock Number 5 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 5 : All the inputs are not ready to enter the actor number 1.
+Clock Number 5 : Actor number 1 is still busy.
+Clock Number 5 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 5 : All the inputs are not ready to enter the actor number 2.
+Clock Number 5 : Actor number 2 is still free.
+Clock Number 5 : All the inputs are not ready to enter the actor number 3.
+Clock Number 5 : Actor number 3 is still busy.
+Clock Number 5 : All the inputs are not ready to enter the actor number 3.
+Clock Number 5 : Actor number 3shooted and now it is free.
+Clock Number 5 : Actor number 4 is still free.
+Clock Number 6 : Actor number 0 is still busy.
+Clock Number 6 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 6 : Actor number 0shooted and now it is free.
+Clock Number 6 : Actor number 1 is still busy.
+Clock Number 6 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 6 : All the inputs are not ready to enter the actor number 2.
+Clock Number 6 : Actor number 2 is still free.
+Clock Number 6 : All the inputs are not ready to enter the actor number 3.
+Clock Number 6 : Actor number 3 is still free.
+Clock Number 6 : All the inputs are not ready to enter the actor number 4.
+Clock Number 6 : Actor number 4 is still free.
+Clock Number 7 : Actor number 0 is still busy.
+Clock Number 7 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 7 : Actor number 1 is still busy.
+Clock Number 7 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 7 : Actor number 1shooted and now it is free.
+Clock Number 7 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 7 : All the inputs are not ready to enter the actor number 3.
+Clock Number 7 : Actor number 3 is still free.
+Clock Number 7 : All the inputs are not ready to enter the actor number 4.
+Clock Number 7 : Actor number 4 is still free.
+Clock Number 8 : Actor number 0 is still busy.
+Clock Number 8 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 8 : All the inputs are not ready to enter the actor number 1.
+Clock Number 8 : Actor number 1 is still busy.
+Clock Number 8 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 8 : All the inputs are not ready to enter the actor number 2.
+Clock Number 8 : Actor number 2 is still busy.
+Clock Number 8 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 8 : All the inputs are not ready to enter the actor number 3.
+Clock Number 8 : Actor number 3 is still free.
+Clock Number 8 : All the inputs are not ready to enter the actor number 4.
+Clock Number 8 : Actor number 4 is still free.
+Clock Number 9 : Actor number 0 is still busy.
+Clock Number 9 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 9 : Actor number 0shooted and now it is free.
+Clock Number 9 : Actor number 1 is still busy.
+Clock Number 9 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 9 : All the inputs are not ready to enter the actor number 2.
+Clock Number 9 : Actor number 2 is still busy.
+Clock Number 9 : All the inputs are not ready to enter the actor number 2.
+Clock Number 9 : Actor number 2shooted and now it is free.
+Clock Number 9 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 9 : All the inputs are not ready to enter the actor number 4.
+Clock Number 9 : Actor number 4 is still free.
+Clock Number 10 : Actor number 0 is still busy.
+Clock Number 10 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 10 : Actor number 1 is still busy.
+Clock Number 10 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 10 : All the inputs are not ready to enter the actor number 2.
+Clock Number 10 : Actor number 2 is still free.
+Clock Number 10 : All the inputs are not ready to enter the actor number 3.
+Clock Number 10 : Actor number 3 is still busy.
+Clock Number 10 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 10 : All the inputs are not ready to enter the actor number 4.
+Clock Number 10 : Actor number 4 is still free.
+Clock Number 11 : Actor number 0 is still busy.
+Clock Number 11 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 11 : Actor number 1 is still busy.
+Clock Number 11 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 11 : Actor number 1shooted and now it is free.
+Clock Number 11 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 11 : All the inputs are not ready to enter the actor number 3.
+Clock Number 11 : Actor number 3 is still busy.
+Clock Number 11 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 11 : All the inputs are not ready to enter the actor number 4.
+Clock Number 11 : Actor number 4 is still free.
+Clock Number 12 : Actor number 0 is still busy.
+Clock Number 12 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 12 : Actor number 0shooted and now it is free.
+Clock Number 12 : Actor number 1 is still busy.
+Clock Number 12 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 12 : All the inputs are not ready to enter the actor number 2.
+Clock Number 12 : Actor number 2 is still busy.
+Clock Number 12 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 12 : All the inputs are not ready to enter the actor number 3.
+Clock Number 12 : Actor number 3 is still busy.
+Clock Number 12 : All the inputs are not ready to enter the actor number 3.
+Clock Number 12 : Actor number 3shooted and now it is free.
+Clock Number 12 : Actor number 4 is still free.
+Clock Number 13 : Actor number 0 is still busy.
+Clock Number 13 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 13 : Actor number 1 is still busy.
+Clock Number 13 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 13 : All the inputs are not ready to enter the actor number 2.
+Clock Number 13 : Actor number 2 is still busy.
+Clock Number 13 : All the inputs are not ready to enter the actor number 2.
+Clock Number 13 : Actor number 2shooted and now it is free.
+Clock Number 13 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 13 : All the inputs are not ready to enter the actor number 4.
+Clock Number 13 : Actor number 4 is still free.
+Clock Number 14 : Actor number 0 is still busy.
+Clock Number 14 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 14 : Actor number 1 is still busy.
+Clock Number 14 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 14 : All the inputs are not ready to enter the actor number 2.
+Clock Number 14 : Actor number 2 is still free.
+Clock Number 14 : All the inputs are not ready to enter the actor number 3.
+Clock Number 14 : Actor number 3 is still busy.
+Clock Number 14 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 14 : All the inputs are not ready to enter the actor number 4.
+Clock Number 14 : Actor number 4 is still free.
+Clock Number 15 : Actor number 0 is still busy.
+Clock Number 15 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 15 : Actor number 0shooted and now it is free.
+Clock Number 15 : Actor number 1 is still busy.
+Clock Number 15 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 15 : Actor number 1shooted and now it is free.
+Clock Number 15 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 15 : All the inputs are not ready to enter the actor number 3.
+Clock Number 15 : Actor number 3 is still busy.
+Clock Number 15 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 15 : All the inputs are not ready to enter the actor number 4.
+Clock Number 15 : Actor number 4 is still free.
+Clock Number 16 : Actor number 0 is still busy.
+Clock Number 16 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 16 : Actor number 1 is still busy.
+Clock Number 16 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 16 : All the inputs are not ready to enter the actor number 2.
+Clock Number 16 : Actor number 2 is still busy.
+Clock Number 16 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 16 : All the inputs are not ready to enter the actor number 3.
+Clock Number 16 : Actor number 3 is still busy.
+Clock Number 16 : All the inputs are not ready to enter the actor number 3.
+Clock Number 16 : Actor number 3shooted and now it is free.
+Clock Number 16 : Actor number 4 is still free.
+Clock Number 17 : Actor number 0 is still busy.
+Clock Number 17 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 17 : Actor number 1 is still busy.
+Clock Number 17 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 17 : All the inputs are not ready to enter the actor number 2.
+Clock Number 17 : Actor number 2 is still busy.
+Clock Number 17 : All the inputs are not ready to enter the actor number 2.
+Clock Number 17 : Actor number 2shooted and now it is free.
+Clock Number 17 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 17 : All the inputs are not ready to enter the actor number 4.
+Clock Number 17 : Actor number 4 is still free.
+Clock Number 18 : Actor number 0 is still busy.
+Clock Number 18 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 18 : Actor number 0shooted and now it is free.
+Clock Number 18 : Actor number 1 is still busy.
+Clock Number 18 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 18 : All the inputs are not ready to enter the actor number 2.
+Clock Number 18 : Actor number 2 is still free.
+Clock Number 18 : All the inputs are not ready to enter the actor number 3.
+Clock Number 18 : Actor number 3 is still busy.
+Clock Number 18 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 18 : All the inputs are not ready to enter the actor number 4.
+Clock Number 18 : Actor number 4 is still free.
+Clock Number 19 : Actor number 0 is still busy.
+Clock Number 19 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 19 : Actor number 1 is still busy.
+Clock Number 19 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 19 : Actor number 1shooted and now it is free.
+Clock Number 19 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 19 : All the inputs are not ready to enter the actor number 3.
+Clock Number 19 : Actor number 3 is still busy.
+Clock Number 19 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 19 : All the inputs are not ready to enter the actor number 4.
+Clock Number 19 : Actor number 4 is still free.
+Clock Number 20 : Actor number 0 is still busy.
+Clock Number 20 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 20 : Actor number 1 is still busy.
+Clock Number 20 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 20 : All the inputs are not ready to enter the actor number 2.
+Clock Number 20 : Actor number 2 is still busy.
+Clock Number 20 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 20 : All the inputs are not ready to enter the actor number 3.
+Clock Number 20 : Actor number 3 is still busy.
+Clock Number 20 : All the inputs are not ready to enter the actor number 3.
+Clock Number 20 : Actor number 3shooted and now it is free.
+Clock Number 20 : Actor number 4 is still free.
+Clock Number 21 : Actor number 0 is still busy.
+Clock Number 21 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 21 : Actor number 0shooted and now it is free.
+Clock Number 21 : Actor number 1 is still busy.
+Clock Number 21 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 21 : All the inputs are not ready to enter the actor number 2.
+Clock Number 21 : Actor number 2 is still busy.
+Clock Number 21 : All the inputs are not ready to enter the actor number 2.
+Clock Number 21 : Actor number 2shooted and now it is free.
+Clock Number 21 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 21 : All the inputs are not ready to enter the actor number 4.
+Clock Number 21 : Actor number 4 is still free.
+Clock Number 22 : Actor number 0 is still busy.
+Clock Number 22 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 22 : Actor number 1 is still busy.
+Clock Number 22 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 22 : All the inputs are not ready to enter the actor number 2.
+Clock Number 22 : Actor number 2 is still free.
+Clock Number 22 : All the inputs are not ready to enter the actor number 3.
+Clock Number 22 : Actor number 3 is still busy.
+Clock Number 22 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 22 : All the inputs are not ready to enter the actor number 4.
+Clock Number 22 : Actor number 4 is still free.
+Clock Number 23 : Actor number 0 is still busy.
+Clock Number 23 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 23 : Actor number 1 is still busy.
+Clock Number 23 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 23 : Actor number 1shooted and now it is free.
+Clock Number 23 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 23 : All the inputs are not ready to enter the actor number 3.
+Clock Number 23 : Actor number 3 is still busy.
+Clock Number 23 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 23 : All the inputs are not ready to enter the actor number 4.
+Clock Number 23 : Actor number 4 is still free.
+Clock Number 24 : Actor number 0 is still busy.
+Clock Number 24 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 24 : Actor number 0shooted and now it is free.
+Clock Number 24 : Actor number 1 is still busy.
+Clock Number 24 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 24 : All the inputs are not ready to enter the actor number 2.
+Clock Number 24 : Actor number 2 is still busy.
+Clock Number 24 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 24 : All the inputs are not ready to enter the actor number 3.
+Clock Number 24 : Actor number 3 is still busy.
+Clock Number 24 : All the inputs are not ready to enter the actor number 3.
+Clock Number 24 : Actor number 3shooted and now it is free.
+Clock Number 24 : Actor number 4 is still free.
+Clock Number 25 : Actor number 0 is still busy.
+Clock Number 25 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 25 : Actor number 1 is still busy.
+Clock Number 25 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 25 : All the inputs are not ready to enter the actor number 2.
+Clock Number 25 : Actor number 2 is still busy.
+Clock Number 25 : All the inputs are not ready to enter the actor number 2.
+Clock Number 25 : Actor number 2shooted and now it is free.
+Clock Number 25 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 25 : All the inputs are not ready to enter the actor number 4.
+Clock Number 25 : Actor number 4 is still free.
+Clock Number 26 : Actor number 0 is still busy.
+Clock Number 26 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 26 : Actor number 1 is still busy.
+Clock Number 26 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 26 : All the inputs are not ready to enter the actor number 2.
+Clock Number 26 : Actor number 2 is still free.
+Clock Number 26 : All the inputs are not ready to enter the actor number 3.
+Clock Number 26 : Actor number 3 is still busy.
+Clock Number 26 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 26 : All the inputs are not ready to enter the actor number 4.
+Clock Number 26 : Actor number 4 is still free.
+Clock Number 27 : Actor number 0 is still busy.
+Clock Number 27 : Actor number 0 is ready to get the inputs so inputs get into the actor.
+Clock Number 27 : Actor number 0shooted and now it is free.
+Clock Number 27 : Actor number 1 is still busy.
+Clock Number 27 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 27 : Actor number 1shooted and now it is free.
+Clock Number 27 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 27 : All the inputs are not ready to enter the actor number 3.
+Clock Number 27 : Actor number 3 is still busy.
+Clock Number 27 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 27 : All the inputs are not ready to enter the actor number 4.
+Clock Number 27 : Actor number 4 is still free.
+Clock Number 28 : All the inputs are not ready to enter the actor number 0.
+Clock Number 28 : Actor number 0 is still busy.
+Clock Number 28 : Actor number 0 is still busy and it can shoot in 2 clocks later.
+Clock Number 28 : Actor number 1 is still busy.
+Clock Number 28 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 28 : All the inputs are not ready to enter the actor number 2.
+Clock Number 28 : Actor number 2 is still busy.
+Clock Number 28 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 28 : All the inputs are not ready to enter the actor number 3.
+Clock Number 28 : Actor number 3 is still busy.
+Clock Number 28 : All the inputs are not ready to enter the actor number 3.
+Clock Number 28 : Actor number 3shooted and now it is free.
+Clock Number 28 : Actor number 4 is still free.
+Clock Number 29 : All the inputs are not ready to enter the actor number 0.
+Clock Number 29 : Actor number 0 is still busy.
+Clock Number 29 : Actor number 0 is still busy and it can shoot in 1 clocks later.
+Clock Number 29 : Actor number 1 is still busy.
+Clock Number 29 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 29 : All the inputs are not ready to enter the actor number 2.
+Clock Number 29 : Actor number 2 is still busy.
+Clock Number 29 : All the inputs are not ready to enter the actor number 2.
+Clock Number 29 : Actor number 2shooted and now it is free.
+Clock Number 29 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 29 : All the inputs are not ready to enter the actor number 4.
+Clock Number 29 : Actor number 4 is still free.
+Clock Number 30 : All the inputs are not ready to enter the actor number 0.
+Clock Number 30 : Actor number 0 is still busy.
+Clock Number 30 : All the inputs are not ready to enter the actor number 0.
+Clock Number 30 : Actor number 0shooted and now it is free.
+Clock Number 30 : Actor number 1 is still busy.
+Clock Number 30 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 30 : All the inputs are not ready to enter the actor number 2.
+Clock Number 30 : Actor number 2 is still free.
+Clock Number 30 : All the inputs are not ready to enter the actor number 3.
+Clock Number 30 : Actor number 3 is still busy.
+Clock Number 30 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 30 : All the inputs are not ready to enter the actor number 4.
+Clock Number 30 : Actor number 4 is still free.
+Clock Number 31 : All the inputs are not ready to enter the actor number 0.
+Clock Number 31 : Actor number 0 is still free.
+Clock Number 31 : Actor number 1 is still busy.
+Clock Number 31 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 31 : Actor number 1shooted and now it is free.
+Clock Number 31 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 31 : All the inputs are not ready to enter the actor number 3.
+Clock Number 31 : Actor number 3 is still busy.
+Clock Number 31 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 31 : All the inputs are not ready to enter the actor number 4.
+Clock Number 31 : Actor number 4 is still free.
+Clock Number 32 : All the inputs are not ready to enter the actor number 0.
+Clock Number 32 : Actor number 0 is still free.
+Clock Number 32 : Actor number 1 is still busy.
+Clock Number 32 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 32 : All the inputs are not ready to enter the actor number 2.
+Clock Number 32 : Actor number 2 is still busy.
+Clock Number 32 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 32 : All the inputs are not ready to enter the actor number 3.
+Clock Number 32 : Actor number 3 is still busy.
+Clock Number 32 : All the inputs are not ready to enter the actor number 3.
+Clock Number 32 : Actor number 3shooted and now it is free.
+Clock Number 32 : Actor number 4 is still free.
+Clock Number 33 : All the inputs are not ready to enter the actor number 0.
+Clock Number 33 : Actor number 0 is still free.
+Clock Number 33 : Actor number 1 is still busy.
+Clock Number 33 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 33 : All the inputs are not ready to enter the actor number 2.
+Clock Number 33 : Actor number 2 is still busy.
+Clock Number 33 : All the inputs are not ready to enter the actor number 2.
+Clock Number 33 : Actor number 2shooted and now it is free.
+Clock Number 33 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 33 : All the inputs are not ready to enter the actor number 4.
+Clock Number 33 : Actor number 4 is still free.
+Clock Number 34 : All the inputs are not ready to enter the actor number 0.
+Clock Number 34 : Actor number 0 is still free.
+Clock Number 34 : Actor number 1 is still busy.
+Clock Number 34 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 34 : All the inputs are not ready to enter the actor number 2.
+Clock Number 34 : Actor number 2 is still free.
+Clock Number 34 : All the inputs are not ready to enter the actor number 3.
+Clock Number 34 : Actor number 3 is still busy.
+Clock Number 34 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 34 : All the inputs are not ready to enter the actor number 4.
+Clock Number 34 : Actor number 4 is still free.
+Clock Number 35 : All the inputs are not ready to enter the actor number 0.
+Clock Number 35 : Actor number 0 is still free.
+Clock Number 35 : Actor number 1 is still busy.
+Clock Number 35 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 35 : Actor number 1shooted and now it is free.
+Clock Number 35 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 35 : All the inputs are not ready to enter the actor number 3.
+Clock Number 35 : Actor number 3 is still busy.
+Clock Number 35 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 35 : All the inputs are not ready to enter the actor number 4.
+Clock Number 35 : Actor number 4 is still free.
+Clock Number 36 : All the inputs are not ready to enter the actor number 0.
+Clock Number 36 : Actor number 0 is still free.
+Clock Number 36 : Actor number 1 is still busy.
+Clock Number 36 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 36 : All the inputs are not ready to enter the actor number 2.
+Clock Number 36 : Actor number 2 is still busy.
+Clock Number 36 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 36 : All the inputs are not ready to enter the actor number 3.
+Clock Number 36 : Actor number 3 is still busy.
+Clock Number 36 : All the inputs are not ready to enter the actor number 3.
+Clock Number 36 : Actor number 3shooted and now it is free.
+Clock Number 36 : Actor number 4 is still free.
+Clock Number 37 : All the inputs are not ready to enter the actor number 0.
+Clock Number 37 : Actor number 0 is still free.
+Clock Number 37 : Actor number 1 is still busy.
+Clock Number 37 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 37 : All the inputs are not ready to enter the actor number 2.
+Clock Number 37 : Actor number 2 is still busy.
+Clock Number 37 : All the inputs are not ready to enter the actor number 2.
+Clock Number 37 : Actor number 2shooted and now it is free.
+Clock Number 37 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 37 : All the inputs are not ready to enter the actor number 4.
+Clock Number 37 : Actor number 4 is still free.
+Clock Number 38 : All the inputs are not ready to enter the actor number 0.
+Clock Number 38 : Actor number 0 is still free.
+Clock Number 38 : Actor number 1 is still busy.
+Clock Number 38 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 38 : All the inputs are not ready to enter the actor number 2.
+Clock Number 38 : Actor number 2 is still free.
+Clock Number 38 : All the inputs are not ready to enter the actor number 3.
+Clock Number 38 : Actor number 3 is still busy.
+Clock Number 38 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 38 : All the inputs are not ready to enter the actor number 4.
+Clock Number 38 : Actor number 4 is still free.
+Clock Number 39 : All the inputs are not ready to enter the actor number 0.
+Clock Number 39 : Actor number 0 is still free.
+Clock Number 39 : Actor number 1 is still busy.
+Clock Number 39 : Actor number 1 is ready to get the inputs so inputs get into the actor.
+Clock Number 39 : Actor number 1shooted and now it is free.
+Clock Number 39 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 39 : All the inputs are not ready to enter the actor number 3.
+Clock Number 39 : Actor number 3 is still busy.
+Clock Number 39 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 39 : All the inputs are not ready to enter the actor number 4.
+Clock Number 39 : Actor number 4 is still free.
+Clock Number 40 : All the inputs are not ready to enter the actor number 0.
+Clock Number 40 : Actor number 0 is still free.
+Clock Number 40 : All the inputs are not ready to enter the actor number 1.
+Clock Number 40 : Actor number 1 is still busy.
+Clock Number 40 : Actor number 1 is still busy and it can shoot in 3 clocks later.
+Clock Number 40 : All the inputs are not ready to enter the actor number 2.
+Clock Number 40 : Actor number 2 is still busy.
+Clock Number 40 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 40 : All the inputs are not ready to enter the actor number 3.
+Clock Number 40 : Actor number 3 is still busy.
+Clock Number 40 : All the inputs are not ready to enter the actor number 3.
+Clock Number 40 : Actor number 3shooted and now it is free.
+Clock Number 40 : Actor number 4 is still free.
+Clock Number 41 : All the inputs are not ready to enter the actor number 0.
+Clock Number 41 : Actor number 0 is still free.
+Clock Number 41 : All the inputs are not ready to enter the actor number 1.
+Clock Number 41 : Actor number 1 is still busy.
+Clock Number 41 : Actor number 1 is still busy and it can shoot in 2 clocks later.
+Clock Number 41 : All the inputs are not ready to enter the actor number 2.
+Clock Number 41 : Actor number 2 is still busy.
+Clock Number 41 : All the inputs are not ready to enter the actor number 2.
+Clock Number 41 : Actor number 2shooted and now it is free.
+Clock Number 41 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 41 : All the inputs are not ready to enter the actor number 4.
+Clock Number 41 : Actor number 4 is still free.
+Clock Number 42 : All the inputs are not ready to enter the actor number 0.
+Clock Number 42 : Actor number 0 is still free.
+Clock Number 42 : All the inputs are not ready to enter the actor number 1.
+Clock Number 42 : Actor number 1 is still busy.
+Clock Number 42 : Actor number 1 is still busy and it can shoot in 1 clocks later.
+Clock Number 42 : All the inputs are not ready to enter the actor number 2.
+Clock Number 42 : Actor number 2 is still free.
+Clock Number 42 : All the inputs are not ready to enter the actor number 3.
+Clock Number 42 : Actor number 3 is still busy.
+Clock Number 42 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 42 : All the inputs are not ready to enter the actor number 4.
+Clock Number 42 : Actor number 4 is still free.
+Clock Number 43 : All the inputs are not ready to enter the actor number 0.
+Clock Number 43 : Actor number 0 is still free.
+Clock Number 43 : All the inputs are not ready to enter the actor number 1.
+Clock Number 43 : Actor number 1 is still busy.
+Clock Number 43 : All the inputs are not ready to enter the actor number 1.
+Clock Number 43 : Actor number 1shooted and now it is free.
+Clock Number 43 : Actor number 2 is ready to get the inputs so inputs get into the actor.
+Clock Number 43 : All the inputs are not ready to enter the actor number 3.
+Clock Number 43 : Actor number 3 is still busy.
+Clock Number 43 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 43 : All the inputs are not ready to enter the actor number 4.
+Clock Number 43 : Actor number 4 is still free.
+Clock Number 44 : All the inputs are not ready to enter the actor number 0.
+Clock Number 44 : Actor number 0 is still free.
+Clock Number 44 : All the inputs are not ready to enter the actor number 1.
+Clock Number 44 : Actor number 1 is still free.
+Clock Number 44 : All the inputs are not ready to enter the actor number 2.
+Clock Number 44 : Actor number 2 is still busy.
+Clock Number 44 : Actor number 2 is still busy and it can shoot in 1 clocks later.
+Clock Number 44 : All the inputs are not ready to enter the actor number 3.
+Clock Number 44 : Actor number 3 is still busy.
+Clock Number 44 : All the inputs are not ready to enter the actor number 3.
+Clock Number 44 : Actor number 3shooted and now it is free.
+Clock Number 44 : Actor number 4 is still free.
+Clock Number 45 : All the inputs are not ready to enter the actor number 0.
+Clock Number 45 : Actor number 0 is still free.
+Clock Number 45 : All the inputs are not ready to enter the actor number 1.
+Clock Number 45 : Actor number 1 is still free.
+Clock Number 45 : All the inputs are not ready to enter the actor number 2.
+Clock Number 45 : Actor number 2 is still busy.
+Clock Number 45 : All the inputs are not ready to enter the actor number 2.
+Clock Number 45 : Actor number 2shooted and now it is free.
+Clock Number 45 : Actor number 3 is ready to get the inputs so inputs get into the actor.
+Clock Number 45 : All the inputs are not ready to enter the actor number 4.
+Clock Number 45 : Actor number 4 is still free.
+Clock Number 46 : All the inputs are not ready to enter the actor number 0.
+Clock Number 46 : Actor number 0 is still free.
+Clock Number 46 : All the inputs are not ready to enter the actor number 1.
+Clock Number 46 : Actor number 1 is still free.
+Clock Number 46 : All the inputs are not ready to enter the actor number 2.
+Clock Number 46 : Actor number 2 is still free.
+Clock Number 46 : All the inputs are not ready to enter the actor number 3.
+Clock Number 46 : Actor number 3 is still busy.
+Clock Number 46 : Actor number 3 is still busy and it can shoot in 2 clocks later.
+Clock Number 46 : All the inputs are not ready to enter the actor number 4.
+Clock Number 46 : Actor number 4 is still free.
+Clock Number 47 : All the inputs are not ready to enter the actor number 0.
+Clock Number 47 : Actor number 0 is still free.
+Clock Number 47 : All the inputs are not ready to enter the actor number 1.
+Clock Number 47 : Actor number 1 is still free.
+Clock Number 47 : All the inputs are not ready to enter the actor number 2.
+Clock Number 47 : Actor number 2 is still free.
+Clock Number 47 : All the inputs are not ready to enter the actor number 3.
+Clock Number 47 : Actor number 3 is still busy.
+Clock Number 47 : Actor number 3 is still busy and it can shoot in 1 clocks later.
+Clock Number 47 : All the inputs are not ready to enter the actor number 4.
+Clock Number 47 : Actor number 4 is still free.
+Clock Number 48 : All the inputs are not ready to enter the actor number 0.
+Clock Number 48 : Actor number 0 is still free.
+Clock Number 48 : All the inputs are not ready to enter the actor number 1.
+Clock Number 48 : Actor number 1 is still free.
+Clock Number 48 : All the inputs are not ready to enter the actor number 2.
+Clock Number 48 : Actor number 2 is still free.
+Clock Number 48 : All the inputs are not ready to enter the actor number 3.
+Clock Number 48 : Actor number 3 is still busy.
+Clock Number 48 : All the inputs are not ready to enter the actor number 3.
+Clock Number 48 : Actor number 3shooted and now it is free.
+Clock Number 48 : Actor number 4 is still free.
+Clock Number 49 : All the inputs are not ready to enter the actor number 0.
+Clock Number 49 : Actor number 0 is still free.
+Clock Number 49 : All the inputs are not ready to enter the actor number 1.
+Clock Number 49 : Actor number 1 is still free.
+Clock Number 49 : All the inputs are not ready to enter the actor number 2.
+Clock Number 49 : Actor number 2 is still free.
+Clock Number 49 : All the inputs are not ready to enter the actor number 3.
+Clock Number 49 : Actor number 3 is still free.
+Clock Number 49 : All the inputs are not ready to enter the actor number 4.
+Clock Number 49 : Actor number 4 is still free.
