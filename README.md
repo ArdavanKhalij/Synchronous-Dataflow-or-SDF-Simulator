@@ -62,6 +62,7 @@ _Sample:_<br/>
 Remmber the format should be exactly like this, otherwise it doesn't work.<br/>
 _Sample:_<br/>
 2<br/>
+The Cython version is also available<br/>
 <br/>
 
 Github link: https://github.com/ArdavanKhalij/Synchronous-Dataflow-or-SDF-Simulator
