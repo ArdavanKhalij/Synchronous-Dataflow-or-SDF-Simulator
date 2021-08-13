@@ -1,8 +1,0 @@
-Processing Time:
-94720,98560,90,260,1280,10,140,56000,360,7700,1
-
-Number of Clocks:
-37000000
-
-Frequency of Clock:
-2
