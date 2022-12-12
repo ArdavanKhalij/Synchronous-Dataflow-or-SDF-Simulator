@@ -170,11 +170,6 @@ if len(EndTimes)>num and PrimaryToken!=0:
     print("Latency : "+str(EndTimes[num]-StartTime[num]))
     if len(EndTimes)>num+1:
         print("Throughput : 1/"+str(EndTimes[end] - EndTimes[end-1]))
-        # MaxDifTime = 0
-        # for i in range(0, len(EndTimes)-1):
-        #     if(EndTimes[i+1]-EndTimes[i])>MaxDifTime:
-        #         MaxDifTime = EndTimes[i+1]-EndTimes[i]
-        # print("Throughput : 1/" + str(MaxDifTime))
     else:
         print("Throughput is not available for 1 token.")
 else:
@@ -186,7 +181,6 @@ gnt.set_ylim(0, len(StartTime))
 gnt.set_xlim(0, NumberOfClocks-1)
 gnt.set_xlabel('Number of clocks')
 gnt.set_ylabel('Tokens')
-# gnt.set_yticks(list(range(0, len(StartTime))))
 gnt.grid(True)
 for i in range(0, len(EndTimes)):
     if(i % 2 == 0):
