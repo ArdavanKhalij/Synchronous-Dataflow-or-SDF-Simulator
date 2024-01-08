@@ -2,10 +2,12 @@
 from copy import deepcopy
 import networkx as nx
 import matplotlib.pyplot as plt
-# Libraries
+
+
 # Output variable for file print
 MainOutput = []
-# Output variable for file print
+
+
 # Read from files
 with open('Input_Matrix.txt', 'r') as f:
     Inputs = [[int(num) for num in line.split(',')] for line in f]
@@ -29,7 +31,8 @@ with open('input.txt', 'r') as f:
     f.readline()
     f.readline()
     FrequencyOfClock = int(f.readline())
-# Read from files
+
+
 # Class of actor
 class Actor:
     def __init__(self, ID, ProcessingTime, Input, Output):
@@ -38,7 +41,8 @@ class Actor:
         self.Input = deepcopy(Input)
         self.Output = deepcopy(Output)
         self.Busy = 0
-# Class of actor
+
+
 # Making a list of Actors
 Actors = []
 for i in range(0, len(Edges)):
@@ -66,7 +70,8 @@ for o in Outputs:
         outp = deepcopy(o)
 AC = Actor(len(Edges), 100, [[o[0],0,1]], [[1, len(Edges)+1]])
 Actors.append(AC)
-# Making a list of Actors
+
+
 # Drawing SDF graph
 SDF = nx.DiGraph()
 for j in range(0, len(Actors)-1):
@@ -77,7 +82,8 @@ for j in range(0, len(Actors)-1):
 nx.draw(SDF, node_size=600, with_labels=True)
 plt.savefig("path_graph1.png")
 plt.show()
-# Drawing SDF graph
+
+
 # Get from inputs
 num = 0
 def getInput(Actors, z, i):
@@ -102,7 +108,8 @@ def getInput(Actors, z, i):
             MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+" is still busy.")
     num = 0
     return ContinueOrNot
-# Get from inputs
+
+
 # Main loop
 EndTimes = []
 StartTime = []
@@ -111,7 +118,7 @@ for i in range(0, NumberOfClocks):
         # Get from inputs
         if getInput(Actors, z, i) == 1:
             continue
-        # Get from inputs
+
         # Shoot the answers
         if z == len(Edges) and Actors[z].Input[0][1] == 1:  # and Actors[kk-1].Input[0][1] > 0:
             if i+4<NumberOfClocks:
@@ -133,7 +140,7 @@ for i in range(0, NumberOfClocks):
                 # Get from inputs
                 if getInput(Actors, z, i) == 1:
                     continue
-                # Get from inputs
+
             MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+"shooted and now it is free.")
         elif Actors[z].Busy == 0:
             pass
@@ -141,8 +148,8 @@ for i in range(0, NumberOfClocks):
         else:
             Actors[z].Busy = Actors[z].Busy - 1
             MainOutput.append("Clock Number "+str(i)+" : "+"Actor number "+str(z)+" is still busy and it can shoot in "+str(Actors[z].Busy)+" clocks later.")
-        # Shoot the answers
-# Main loop
+
+        
 # Make Start times right
 num=0
 print(len(StartTime))
@@ -155,7 +162,8 @@ for i in range(0, num):
     StartTime.insert(0, -1)
 for i in range(0, len(EndTimes)-len(StartTime)):
     StartTime.insert(0, -1)
-# Make Start times right
+
+
 # Print the result
 end = len(EndTimes)-1
 for i in range(0, len(EndTimes)):
@@ -174,7 +182,8 @@ if len(EndTimes)>num and PrimaryToken!=0:
         print("Throughput is not available for 1 token.")
 else:
     print("Latency and Throughput are not available for 0 token.")
-# Print the result
+
+
 # Chart of process of each Token
 fig, gnt = plt.subplots()
 gnt.set_ylim(0, len(StartTime))
@@ -188,11 +197,11 @@ for i in range(0, len(EndTimes)):
     else:
         gnt.broken_barh([(StartTime[i], EndTimes[i] - StartTime[i])], (i, 0.9))
 plt.show()
-# Chart of process of each Token
+
+
 # Write on file
 with open('Output.txt','w') as f:pass
 f.close()
 with open('Output.txt','a') as f:
     for i in MainOutput:
         f.write(i+"\n")
-# Write on file
